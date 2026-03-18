@@ -53,8 +53,8 @@ bool	isPalindrome(int x)
 	i = digits / 2;
 	while (i > 0)
 	{
-		right_digit = calc_digit(x, right_divisor);
-		left_digit = calc_digit(x, left_divisor);
+		right_digit = get_digit(x, right_divisor);
+		left_digit = get_digit(x, left_divisor);
 		if (left_digit != right_digit)
 			return (false);
 		right_divisor *= 10;
