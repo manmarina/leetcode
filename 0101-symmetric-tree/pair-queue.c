@@ -7,6 +7,7 @@ struct				TreeNode
 	struct TreeNode	*right;
 };
 
+// キューの処理順はBFSと同じ
 bool	isSymmetric(struct TreeNode *root)
 {
 	struct TreeNode	*queue[2000];
