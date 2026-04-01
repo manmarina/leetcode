@@ -28,9 +28,9 @@ static int	height(struct TreeNode *root)
 
 bool	isBalanced(struct TreeNode *root)
 {
-	int left_height;
-	int right_height;
-	int diff;
+	int	left_height;
+	int	right_height;
+	int	diff;
 
 	if (!root)
 		return (true);
